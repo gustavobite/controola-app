@@ -10,11 +10,6 @@ jobs:
       JVM_OPTS: -Xmx3200m
       CIRCLE_JDK_VERSION: oraclejdk8
       
-    dependencies:
-        override:
-            - chmod +x gradlew
-            - ./gradlew dependencies
-
     steps:
       - checkout
 
